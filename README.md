@@ -10,13 +10,6 @@
 <b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
 </h5>
 
-<br>
-
-<p align='center'>
-<b>English</b> | <a href="https://github.com/antfu/vitesse-lite/blob/main/README.zh-CN.md">简体中文</a>
-<!-- Contributors: Thanks for geting interested, however we DON'T accept new transitions to the README, thanks. -->
-</p>
-
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
@@ -37,11 +30,9 @@
 
 - ☁️ Deploy on Netlify, zero-config
 
-
 <br>
 
 See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
 
 ## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
 
@@ -71,18 +62,36 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 
-## Try it now!
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
+## Try it now
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-lite my-vitesse-app
-cd my-vitesse-app
+git clone https://github.com/FADL285/vitesse-lite.git
+cd vitesse
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
+
+Enjoy :)
+
+## Usage
+
+### Development
+
+Just run and visit <http://localhost:3333>
+
+```bash
+pnpm dev
+```
+
+### Build
+
+To build the App, run
+
+```bash
+pnpm build
+```
+
+And you will see the generated file in `dist` that ready to be served.
